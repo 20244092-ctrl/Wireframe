@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verve Books - Modern Bookstore & Literature</title>
+</head>
+<body>
+
+    <!-- Main Container Table to Center and Expand Content Across Screen -->
+    <table width="90%" align="center" border="0" cellpadding="10" cellspacing="0">
+        <tr>
+            <td>
+
+                <!-- Header Section with Logo Image -->
+                <header id="top">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>
+                                <!-- Logo and Title Side-by-Side -->
+                                <table border="0" cellpadding="0" cellspacing="5">
+                                    <tr>
+                                        <td>
+                                            <img src="vervelogo.jpg" alt="Verve Books Logo" width="50" height="50">
+                                        </td>
+                                        <td>
+                                            <h1>Verve Books</h1>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td align="right">
+                                <form action="#" method="get">
+                                    <input type="search" name="query" placeholder="Search books, authors...">
+                                    <button type="submit">Search</button>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                    <nav>
+                        <a href="#home">Home</a> | 
+                        <a href="#fiction">Fiction</a> | 
+                        <a href="#academic">Academic</a> | 
+                        <a href="#art">Art</a> | 
+                        <a href="#cart">Cart (1)</a> | 
+                        <a href="#checkout">Checkout</a> | 
+                        <a href="#contact">Contact</a>
+                    </nav>
+                    <hr>
+                </header>
+
+                <main>
+                    <!-- Hero Section -->
+                    <section id="home" align="center">
+                        <h2>Curated Reads for Modern Minds</h2>
+                        <p>Explore contemporary novels, academic textbooks, and art guides in one sleek place. Free shipping on orders over P500.</p>
+                        <p><a href="#fiction"><button type="button">Shop Now</button></a></p>
+                        <hr>
+                    </section>
+
+                    <!-- Fiction & Bestsellers Section -->
+                    <section id="fiction">
+                        <h2>Featured Bestsellers</h2>
+                        <table width="100%" border="1" cellpadding="15" cellspacing="0" align="center">
+                            <tr>
+                                <td width="25%" align="center">
+                                    <h3>📘 Mystery of Time</h3>
+                                    <p>J. D. Vance</p>
+                                    <p><strong>P399.00</strong></p>
+                                    <button type="button">Add to Cart</button>
+                                </td>
+                                <td width="25%" align="center">
+                                    <h3>📙 Starry Night</h3>
+                                    <p>Elena Vance</p>
+                                    <p><strong>P420.00</strong></p>
+                                    <button type="button">Add to Cart</button>
+                                </td>
+                                <td width="25%" align="center">
+                                    <h3>📗 Echoes</h3>
+                                    <p>Clara Rivera</p>
+                                    <p><strong>P350.00</strong></p>
+                                    <button type="button">Add to Cart</button>
+                                </td>
+                                <td width="25%" align="center">
+                                    <h3>📐 Data Structures</h3>
+                                    <p>Dr. Alan Turing</p>
+                                    <p><strong>P450.00</strong></p>
+                                    <button type="button">Add to Cart</button>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <br>
+                        <h3>Featured Photos</h3>
+                        <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                            <tr>
+                                <td align="center">
+                                    <figure>
+                                        <img src="Mystery.jpg" alt="Mystery novel book cover" width="220" height="150">
+                                        <figcaption><strong>Mystery of Time</strong><br><small>Hardcover edition</small></figcaption>
+                                    </figure>
+                                </td>
+                                <td align="center">
+                                    <figure>
+                                        <img src="Starry.jpg" alt="Sci-fi book cover" width="220" height="150">
+                                        <figcaption><strong>Starry Night</strong><br><small>Sci-fi masterpiece</small></figcaption>
+                                    </figure>
+                                </td>
+                                <td align="center">
+                                    <figure>
+                                        <img src="Special.jpg" alt="Drama book cover" width="220" height="150">
+                                        <figcaption><strong>Echoes of Forest</strong><br><small>Collector paperback</small></figcaption>
+                                    </figure>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr>
+                    </section>
+
+                    <!-- Academic Section -->
+                    <section id="academic">
+                        <h2>Academic Literature</h2>
+                        <table width="100%" border="1" cellpadding="15" cellspacing="0">
+                            <tr>
+                                <td width="33%" align="center">
+                                    <h3>📐 Data Structures & Algorithms</h3>
+                                    <p>Dr. Alan Turing | <strong>P450.00</strong></p>
+                                    <button type="button">Add to Cart</button>
+                                </td>
+                                <td width="33%" align="center">
+                                    <h3>🧪 Organic Chemistry</h3>
+                                    <p>Dr. Marie Curie | <strong>P850.00</strong></p>
+                                    <button type="button">Add to Cart</button>
+                                </td>
+                                <td width="33%" align="center">
+                                    <h3>📊 Human-Computer Interaction</h3>
+                                    <p>Prof. Don Norman | <strong>P520.00</strong></p>
+                                    <button type="button">Add to Cart</button>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr>
+                    </section>
+
+                    <!-- Art Section -->
+                    <section id="art">
+                        <h2>Art & Design</h2>
+                        <table width="100%" border="1" cellpadding="15" cellspacing="0">
+                            <tr>
+                                <td width="50%" align="center">
+                                    <h3>🎨 Modern Sculpture</h3>
+                                    <p>Elena Rossi | <strong>P399.00</strong></p>
+                                    <label for="binding-art1">Binding:</label>
+                                    <select id="binding-art1" name="binding-art1">
+                                        <option value="Paperback">Paperback</option>
+                                        <option value="Hardcover" selected>Hardcover</option>
+                                    </select>
+                                    <br><br>
+                                    <button type="button">Add to Cart</button>
+                                </td>
+                                <td width="50%" align="center">
+                                    <h3>🖌️ Watercolor Masterclass</h3>
+                                    <p>Pablo Silva | <strong>P480.00</strong></p>
+                                    <label for="binding-art2">Binding:</label>
+                                    <select id="binding-art2" name="binding-art2">
+                                        <option value="Paperback" selected>Paperback</option>
+                                        <option value="Hardcover">Hardcover</option>
+                                    </select>
+                                    <br><br>
+                                    <button type="button">Add to Cart</button>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr>
+                    </section>
+
+                    <!-- Shopping Cart Section -->
+                    <section id="cart">
+                        <h2>Your Shopping Cart</h2>
+                        <table width="100%" border="1" cellpadding="8" cellspacing="0">
+                            <thead>
+                                <tr bgcolor="#f2f2f2">
+                                    <th>Product Title</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Subtotal</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Mystery of Time</td>
+                                    <td>P399.00</td>
+                                    <td align="center"><input type="number" min="1" max="20" value="1"></td>
+                                    <td>P399.00</td>
+                                    <td align="center"><button type="button">Remove</button></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3" align="right"><strong>Grand Total:</strong></td>
+                                    <td colspan="2"><strong>P399.00</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <br>
+                        <p align="center"><a href="#checkout"><button type="button">Proceed to Checkout</button></a></p>
+                        <hr>
+                    </section>
+
+                    <!-- Checkout Section -->
+                    <section id="checkout">
+                        <h2>Checkout Form</h2>
+                        <form action="#" method="post">
+                            <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                                <tr>
+                                    <td width="50%" valign="top">
+                                        <fieldset>
+                                            <legend><strong>Shipping Information</strong></legend>
+                                            <p>
+                                                <label for="fullname">Full Name:</label><br>
+                                                <input type="text" id="fullname" name="fullname" placeholder="John Doe" size="30" required>
+                                            </p>
+                                            <p>
+                                                <label for="email">Email Address:</label><br>
+                                                <input type="email" id="email" name="email" placeholder="student@example.com" size="30" required>
+                                            </p>
+                                            <p>
+                                                <label for="phone">Phone Number:</label><br>
+                                                <input type="tel" id="phone" name="phone" placeholder="0912-345-6789">
+                                            </p>
+                                            <p>
+                                                <label for="address">Delivery Address:</label><br>
+                                                <textarea id="address" name="address" rows="3" cols="30" required></textarea>
+                                            </p>
+                                            <p>
+                                                <label for="city">City Location:</label><br>
+                                                <input type="text" id="city" name="city" list="cities">
+                                                <datalist id="cities">
+                                                    <option value="Baguio City">
+                                                    <option value="Manila">
+                                                    <option value="Cebu City">
+                                                    <option value="Davao City">
+                                                </datalist>
+                                            </p>
+                                            <p>
+                                                <label for="delivery-date">Preferred Date:</label><br>
+                                                <input type="date" id="delivery-date" name="delivery-date">
+                                            </p>
+                                            <p>
+                                                <label for="delivery-option">Delivery Option:</label><br>
+                                                <select id="delivery-option" name="delivery-option">
+                                                    <option value="standard">Standard Shipping (3-5 Days)</option>
+                                                    <option value="express">Express Courier (1-2 Days)</option>
+                                                    <option value="pickup">Store Pick-up</option>
+                                                </select>
+                                            </p>
+                                        </fieldset>
+                                    </td>
+                                    <td width="50%" valign="top">
+                                        <fieldset>
+                                            <legend><strong>Payment & Extras</strong></legend>
+                                            <p>
+                                                <input type="radio" id="card" name="payment" value="card" checked>
+                                                <label for="card">Credit / Debit Card</label><br>
+                                                <input type="radio" id="cod" name="payment" value="cod">
+                                                <label for="cod">Cash on Delivery</label><br>
+                                                <input type="radio" id="wallet" name="payment" value="wallet">
+                                                <label for="wallet">E-Wallet (GCash / Maya)</label>
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="giftwrap" name="extras" value="giftwrap">
+                                                <label for="giftwrap">Gift wrap book (P50.00)</label><br>
+                                                <input type="checkbox" id="receipt" name="extras" value="receipt">
+                                                <label for="receipt">Include physical gift receipt</label>
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="terms" name="terms" required>
+                                                <label for="terms">I agree to the <a href="#terms-info">Terms & Conditions</a></label>
+                                            </p>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p align="center">
+                                <button type="submit">Place Order</button>
+                                <button type="reset">Clear Form</button>
+                            </p>
+                        </form>
+                        <hr>
+                    </section>
+
+                    <!-- Store Location & Contact Section -->
+                    <section id="contact" align="center">
+                        <h2>Visit Our Physical Store</h2>
+                        <iframe title="Verve Books Location Map" width="80%" height="300" src="https://www.openstreetmap.org/export/embed.html?bbox=120.5979%2C16.4023%2C120.6039%2C16.4163&layer=mapnik&marker=16.4093%2C120.6009"></iframe>
+                        <p><a href="https://www.openstreetmap.org/?mlat=16.4093&mlon=120.6009#map=16/16.4093/120.6009" target="_blank" rel="noopener">View larger map</a></p>
+
+                        <address>
+                            <strong>Verve Books Store Main Branch</strong> | Session Road, Baguio City<br>
+                            Phone: <a href="tel:+63744423071">(074) 442-3071</a> | Email: <a href="mailto:support@vervebooks.edu">support@vervebooks.edu</a>
+                        </address>
+                        <hr>
+                    </section>
+
+                    <!-- Useful External Links -->
+                    <section id="links">
+                        <h2>Useful Links</h2>
+                        <ul>
+                            <li><a href="https://www.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMap Directory</a></li>
+                            <li><a href="https://maps.google.com" target="_blank" rel="noopener">Google Maps Navigation</a></li>
+                            <li><a href="https://facebook.com" target="_blank" rel="noopener">Verve Books Official Facebook Page</a></li>
+                            <li><a href="#top">Back to top of page</a></li>
+                        </ul>
+                        <hr>
+                    </section>
+
+                    <!-- Store Terms & Policy -->
+                    <section id="terms-info">
+                        <h2>Store Information & Policies</h2>
+                        <details>
+                            <summary>Click to expand store terms and conditions</summary>
+                            <ol>
+                                <li>Books may be returned within 7 business days in pristine condition with original receipt.</li>
+                                <li>Academic textbook pre-orders are non-refundable once dispatched.</li>
+                            </ol>
+                        </details>
+                    </section>
+                </main>
+
+                <!-- Footer -->
+                <footer>
+                    <hr>
+                    <p align="center">&copy; 2026 Verve Books. All rights reserved.</p>
+                </footer>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
